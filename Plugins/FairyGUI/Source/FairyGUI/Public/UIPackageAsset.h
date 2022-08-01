@@ -11,7 +11,7 @@ class FAIRYGUI_API UUIPackageAsset : public UObject
 
 public:
 
-    UPROPERTY(EditAnywhere)
+    UPROPERTY(EditAnywhere, Category = "FairyGUI")
     TArray<uint8> Data;
 
 #if WITH_EDITORONLY_DATA
